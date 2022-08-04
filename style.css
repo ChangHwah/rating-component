@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+p {
+    color: hsl(217, 12%, 63%);
+}
+.ratingContainer{
+    color: white;
+    margin: auto;
+    transform: translateY(50%);
+    background-color: #1b222c;
+    width: 18%;
+    border-radius: 10px;
+    padding: 30px;
+}
+.starIcon {
+    background-color: #262f38;
+    border-radius: 25px;
+    padding: 15px;
+}
+.ratingNumbers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.button {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    background-color: #262f38;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.button:active {
+    background-color: hsl(25, 97%, 53%) !important;
+}
+.submit {
+    font-size: 15px;
+    font-family: 'Overpass';
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius:50px;
+    border: none;
+    transition: 300ms;
+    width: 100%;
+    padding: 15px;
+}
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
