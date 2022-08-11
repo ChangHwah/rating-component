@@ -47,6 +47,7 @@ p {
     justify-content: space-evenly;
     padding: 0;
     margin-bottom: 1.5rem;
+    list-style-type: none;
 }
 .numbers {
     color:#848c97;
